@@ -42,7 +42,7 @@ while yes == 0:
                 player_score = player_score + 1
         elif player == 2:
             if computer == 3:
-                print(f"You lose! {t[computer]} Absolutely Destroyed {t[player]}")
+                print(f"You lose! {t[computer]} Absolutely Destroyed {t[player]}'s Forehead")
                 cpu_score = cpu_score + 1
             else:
                 print(f"You win! {t[player]} Countered {t[computer]}'s Cluster Grenade")
@@ -52,7 +52,7 @@ while yes == 0:
                 print(f"You lose... {t[computer]} Teamkills {t[player]}")
                 cpu_score = cpu_score + 1
             else:
-                print(f"You win! {t[player]} Absolutely Destroyed {t[computer]}")
+                print(f"You win! {t[player]} Absolutely Destroyed {t[computer]}'s Forehead")
                 player_score = player_score + 1
         else:
             print("Invalid, check spelling!")
