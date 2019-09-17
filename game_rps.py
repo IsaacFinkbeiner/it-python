@@ -18,10 +18,10 @@ while yes == 0:
     #set player to False
     player = False
 
-    while player_score < 2:
+    while player_score < 3:
         computer = random.randint(1,3)
     #set player to True
-        if cpu_score == 2:
+        if cpu_score == 3:
             print("")
             print("Oh no! The computer won! Try again, you puny mortal! You must follow Turtle_Dude_8 on Twitch to repent for your sins and failures.")
             break
@@ -57,7 +57,7 @@ while yes == 0:
         else:
             print("Invalid, check spelling!")
 
-    if player_score == 2:
+    if player_score == 3:
         print("")
         print("Congratz!!! You won against the computer! Great job! And Follow Turtle_Dude_8 on Twitch!")
     play_again = "no"
