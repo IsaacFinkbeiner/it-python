@@ -4,7 +4,7 @@ from banner import banner
 yes = 0
 while yes == 0:
     banner("Fuze Jäger Montange", "Isaac Finkbeiner, Ryan Anderson, and Blaise Brockway")
-    print("We are going to play Fuze, Jäger, Montange. The first to win Two out of Three rounds is the winner.")
+    print("We are going to play a GAME! It's called Fuze, Jäger, Montange. The first to win Two out of Three rounds is the winner.")
 
 
     player_score = 0
@@ -62,7 +62,8 @@ while yes == 0:
         print("Congratz!!! You won against the computer! Great job! And Follow Turtle_Dude_8 on Twitch!")
     play_again = "no"
     while play_again == "no":
-        play_again = input("Play again? ")
+        print("")
+        play_again = input("Play again?   -->   Type yes or no? ")
         if play_again == "yes":
             print("cool")
             computer_score = 0
