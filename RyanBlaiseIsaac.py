@@ -3,15 +3,15 @@ from banner import banner
 
 yes = 0
 while yes == 0:
-    banner("Fuze Jäger Montange", "Isaac Finkbeiner, Ryan Anderson, and Blaise Brockway")
-    print("We are going to play a GAME! It's called Fuze, Jäger, Montange. The first to win Two out of Three rounds is the winner.")
+    banner("Ryan Blaise Isaac", "Isaac Finkbeiner, Ryan Anderson, and Blaise Brockway")
+    print("We are going to play a GAME! It's called Ryan, Blaise, Isaac. The first to win Two out of Three rounds is the winner.")
 
 
     player_score = 0
     cpu_score = 0
 
     #create a list of play options
-    t = ["", "Fuze", "Jäger", "Montange"]
+    t = ["", "Ryan", "Blaise", "Isaac"]
 
     #assign a random play to the computer
 
@@ -27,9 +27,9 @@ while yes == 0:
             break
         print("")
         print(f"SCORE: {player_score} - {cpu_score}")
-        print("1. Fuze")
-        print("2. Jäger")
-        print("3. Montange")
+        print("1. Ryan")
+        print("2. Blaise")
+        print("3. Isaac")
         player = int(input("What is your choice? "))
         if player == computer:
             print("You have traded with the CPU!")

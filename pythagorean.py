@@ -3,13 +3,15 @@ banner("Pythagorean Calculator", "Isaac Fink")
 import math
 from math import sqrt
 
-print("We will help you find the missing side of a right triangle. Th lengths of the two legsa are 'a' and 'b', and the lengths of the hypotenuse is 'c'. ")
-print("Please enter the length of each side, or leave it blank if you don't know...")
+print('We will help you find the missing side of a right triangle.')
+print('The lengths of the two legs are "a" and "b", and the length of the hypotenuse is "c". ')
+print('')
+print("Please enter the length of each side, or leave the blank if you don't know... ")
 formula = input('Which side (a, b, c) do you wish to calculate? side> ')
 
 if formula == 'c':
-	side_a = int(input('Input the length of side a: '))
-	side_b = int(input('Input the length of side b: '))
+	side_a = int(input('Type the length of side a: '))
+	side_b = int(input('Type the length of side b: '))
 
 	side_c = sqrt(side_a * side_a + side_b * side_b)
 	
@@ -17,8 +19,8 @@ if formula == 'c':
 	print(side_c)
 
 elif formula == 'a':
-    side_b = int(input('Input the length of side b: '))
-    side_c = int(input('Input the length of side c: '))
+    side_b = int(input('Type the length of side b: '))
+    side_c = int(input('Type the length of side c: '))
 
     side_a = sqrt((side_c * side_c) - (side_b * side_b))
 
@@ -26,8 +28,8 @@ elif formula == 'a':
     print(side_a)
 
 elif formula == 'b':
-    side_a = int(input('Input the length of side a: '))
-    side_b = int(input('Input the length of side c: '))
+    side_a = int(input('Type the length of side a: '))
+    side_b = int(input('Type the length of side c: '))
 
     side_c = sqrt(side_c * side_c - side_a * side_a)
 
@@ -36,3 +38,5 @@ elif formula == 'b':
 
 else:
 	print('Please select a side between a, b, c')
+
+print("To Be Continued....")
